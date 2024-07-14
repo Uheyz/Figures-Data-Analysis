@@ -5,7 +5,6 @@ import yaml
 from myenv.constants import *
 from Analysis.AnalyzerInterface import AnalyzerInterface
 
-
 class PricesAnalyzer(AnalyzerInterface):
     def __init__(self, config_file='appsettings.yml'):
 

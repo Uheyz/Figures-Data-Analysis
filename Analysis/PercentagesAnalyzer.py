@@ -4,6 +4,7 @@ import seaborn as sns
 import yaml
 from myenv.constants import *
 from Analysis.AnalyzerInterface import AnalyzerInterface
+
 class PercentagesAnalyzer(AnalyzerInterface):
     def __init__(self, config_file='appsettings.yml'):
         with open(config_file, 'r', encoding='utf-8') as file:
